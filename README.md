@@ -6,7 +6,7 @@ This project analyzes a dataset of 48,895 NYC Airbnb listings to identify key dr
 * **Revenue:** Utilized Window Functions to identify that the top host, Blueground, generated over $2.2M in revenue, significantly outperforming individual hosts.
 * **Neighborhood Volatility:** Greenpoint and Upper West Side showed the highest price variability ($10,000 variance), indicating a mix of luxury and budget inventory that suggests high rental arbitrage opportunities.
 * **Seasonal Trends:** Analysis of review frequency and pricing revealed that December is the peak pricing month ($160/night avg), while August surprisingly offered lower average rates ($132/night), suggesting potential for off-peak marketing strategies.
-* **Host Performance:** "Row NYC" achieved the highest average review rating (18.62).
+* **Host Performance:** "Row NYC" achieved the highest average review monthly activity (18.62).
 
 ### Technical Skills
 * **Advanced Aggregations:** Used `GROUP BY` and `SUM` to calculate financial metrics at the host and neighborhood level.
