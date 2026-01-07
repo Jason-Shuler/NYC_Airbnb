@@ -3,6 +3,7 @@
 This project analyzes a dataset of 48,895 NYC Airbnb listings to identify key drivers of revenue and pricing efficiency. I engineered features in SQL to identify high-performing hosts, track seasonal trends, and calculate price volatility. The analysis identified corporate housing entities (e.g., Blueground) as the dominant revenue drivers and highlighted specific neighborhoods with high arbitrage potential.
 
 ### Key Findings and Insights
+* **Market Segmentation Risk:** Engineered a `CASE` logic pricing tier system to discover that **Premium listings (>$300)** have a **15% higher vacancy rate** compared to Budget listings, suggesting a need for dynamic pricing adjustments.
 * **Revenue:** Utilized Window Functions to identify that the top host, Blueground, generated over $2.2M in revenue, significantly outperforming individual hosts.
 * **Neighborhood Volatility:** Greenpoint and Upper West Side showed the highest price variability ($10,000 variance), indicating a mix of luxury and budget inventory that suggests high rental arbitrage opportunities.
 * **Seasonal Trends:** Analysis of review frequency and pricing revealed that December is the peak pricing month ($160/night avg), while August surprisingly offered lower average rates ($132/night), suggesting potential for off-peak marketing strategies.
